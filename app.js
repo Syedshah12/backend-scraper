@@ -17,7 +17,7 @@ const cors=require('cors');
 
 //middlewares
 
-app.use(cors({
+app.use('*',cors({
     origin: true,
     credentials: true
   }));
